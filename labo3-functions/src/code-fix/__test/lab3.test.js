@@ -24,15 +24,15 @@ describe("Test of Functions —lab3", () => {
   });
 
   test("return the sum of all positive numbers", () => {
-    expect(functions.addPositive([1, 0, 3, -1])).toBe(4);
+    expect(functions.addPositiveNumbers([1, 0, 3, -1])).toBe(4);
   });
 
   test("return the sum of all positive numbers, and convert string to number", () => {
-    expect(functions.addPositive([1, 0, "3", -1])).toBe(4);
+    expect(functions.addPositiveNumbers([1, 0, "3", -1])).toBe(4);
   });
 
   test("return 0 for empty array", () => {
-    expect(functions.addPositive([])).toBe(0);
+    expect(functions.addPositiveNumbers([])).toBe(0);
   });
 
   test("return index of first repeating character", () => {
